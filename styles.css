@@ -71,3 +71,39 @@ header {
         text-align: center;
     }
 }
+.pricing-cards {
+    display: flex;
+    gap: 20px;
+
+    padding: 85px 100px;
+    background-color: #EAFAF1;
+}
+.first-card {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 50px 0 50px;
+}
+.title-first-card {
+    font-size: 20px;
+    line-height: 23px;
+    color: #00ad6a;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.lis-first-card {
+    font-size: 16px;
+    line-height: 24px;
+    color: #464951;
+}
+.buy-first-card {
+    font-size: 16px;
+    line-height: 24px;
+    color: #464951;
+
+    margin-top: 20px;
+    margin-left: -20px;
+
+    > a {
+        color: black;
+    }
+}
