@@ -1,5 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
 header {
     background-color: #EAFAF1;
 
     display: flex;
+    justify-content: space-between;
+    padding: 55px 100px 75px 100px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+    > p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        color: #00ad6a;
+    }
+}
+.menu > p:hover {
+    color: black;
+}
+.text-active {
+    color: black !important;
+}
+.signup {
+    border: 2px solid #00ad6a;
+    padding: 4px 16px;
+    text-align: center;
+}
+.signup:hover {
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: -5px 5px #00ad6a;
+    color: #00ad6a !important;
+}
+.title-logo {
+    
 }
