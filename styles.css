@@ -12,7 +12,7 @@ header {
 
     display: flex;
     justify-content: space-between;
-    padding: 55px 100px 75px 100px;
+    padding: 45px 100px 75px 100px;
 }
 .menu {
     display: flex;
@@ -22,7 +22,7 @@ header {
     > p {
         font-size: 16px;
         line-height: 24px;
-        font-weight: bold;
+        font-weight: bolder;
         color: #00ad6a;
     }
 }
@@ -43,5 +43,6 @@ header {
     color: #00ad6a !important;
 }
 .title-logo {
-    
+    width: 119px;
+    height: 49px;
 }
