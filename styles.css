@@ -24,6 +24,7 @@ header {
         line-height: 24px;
         font-weight: bolder;
         color: #00ad6a;
+        cursor: pointer;
     }
 }
 .menu > p:hover {
@@ -45,4 +46,5 @@ header {
 .title-logo {
     width: 119px;
     height: 49px;
+    cursor: pointer;
 }
