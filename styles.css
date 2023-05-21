@@ -81,7 +81,7 @@ header {
 .first-card {
     display: flex;
     flex-direction: column;
-    padding: 120px 50px 0 50px;
+    padding: 100px 50px 0 50px;
 }
 .title-first-card {
     font-size: 20px;
