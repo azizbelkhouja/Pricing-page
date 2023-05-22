@@ -81,7 +81,8 @@ header {
 .first-card {
     display: flex;
     flex-direction: column;
-    padding: 100px 50px 0 50px;
+    padding: 100px 0 0 0;
+    flex: 1;
 }
 .title-first-card {
     font-size: 20px;
@@ -106,4 +107,85 @@ header {
     > a {
         color: black;
     }
+}
+.second-card {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    border: 1px solid #00ad6a;
+    border-radius: 10px;
+    flex: 1;
+    > ul {
+        padding: 0 32px;
+        padding-bottom: 47px;
+
+        > li {
+            font-size: 16px;
+            text-align: left;
+            color: #464951;
+            letter-spacing: 0.5px;
+            padding-block: 8px;
+        }
+    }
+}
+.recommended {
+    background-color: #00ad6a;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 0;
+}
+.scnd {
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.scnd-title {
+    font-size: 48px;
+    letter-spacing: 1.5px;
+    color: #00ad6a;
+    padding: 0 16px;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 48px;
+}
+.scnd-price {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #83858a;
+    margin: 8px 0 24px 0;
+    padding-left: 8px;
+}
+
+.scnd-signup {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 8px 32px 12px 32px;
+    margin-bottom: 32px;
+    color: #464951;
+    background-color: #1fe374;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.scnd-plus {
+    font-size: 12px;
+    line-height: 13.8px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #464951;
+    font-weight: bold;
+}
+
+
+.third-card {
+    flex: 1;
 }
