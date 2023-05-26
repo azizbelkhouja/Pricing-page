@@ -73,7 +73,7 @@ header {
 }
 .pricing-cards {
     display: flex;
-    gap: 20px;
+    gap: 0px;
 
     padding: 85px 100px;
     background-color: #EAFAF1;
@@ -83,6 +83,7 @@ header {
     flex-direction: column;
     padding: 100px 0 0 0;
     flex: 1;
+    margin-right: 20px;
 }
 .title-first-card {
     font-size: 20px;
@@ -149,7 +150,7 @@ header {
     letter-spacing: 1.5px;
     color: #00ad6a;
     padding: 0 16px;
-    margin-top: 16px;
+    margin-top: 50px;
     text-align: center;
     font-weight: bold;
     line-height: 48px;
@@ -186,4 +187,77 @@ header {
 
 .third-card {
     flex: 1;
+    
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+
+    > ul {
+        padding: 0 32px;
+        margin: 0;
+
+        > li {
+            font-size: 16px;
+            text-align: left;
+            color: #464951;
+            letter-spacing: 0.5px;
+            padding-block: 8px;
+
+        }
+    }
+}
+.grey-header {
+    color: #464951;
+    font-size: 14px;
+    line-height: 18.2px;
+    text-align: center;
+    background-color: #f2f3f3;
+    padding: 24px 32px 24px 32px;
+    border: 1px solid grey;
+}
+.third-first-part {
+    margin: 50px;
+    margin-bottom: 0;
+    padding-inline: 24px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.third-title {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #00ad6a;
+}
+.third-price {
+    color: #83858a;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.third-button {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 8px 32px 12px 32px;
+    margin-bottom: 32px;
+    color: #464951;
+    background-color: #1fe374;
+    text-decoration: none;
+    font-weight: bold;
+}
+.third-plus {
+    font-size: 12px;
+    line-height: 13.8px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #464951;
+    font-weight: bold;
 }
