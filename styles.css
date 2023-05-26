@@ -75,14 +75,14 @@ header {
     display: flex;
     gap: 0px;
 
-    padding: 85px 100px;
+    padding: 85px 70px;
     background-color: #EAFAF1;
 }
 .first-card {
     display: flex;
     flex-direction: column;
-    padding: 100px 0 0 0;
-    flex: 1;
+    padding: 0;
+    margin-top: 100px;
     margin-right: 20px;
 }
 .title-first-card {
@@ -116,7 +116,7 @@ header {
     background-color: white;
     border: 1px solid #00ad6a;
     border-radius: 10px;
-    flex: 1;
+
     > ul {
         padding: 0 32px;
         padding-bottom: 47px;
@@ -186,14 +186,14 @@ header {
 
 
 .third-card {
-    flex: 1;
-    
     background-color: white;
 
     display: flex;
     flex-direction: column;
 
-    margin-top: 50px;
+    margin-top: 70px;
+    flex-grow: 0;
+    margin-bottom: 40px;
 
     > ul {
         padding: 0 32px;
@@ -219,7 +219,7 @@ header {
     border: 1px solid grey;
 }
 .third-first-part {
-    margin: 50px;
+    margin: 40px;
     margin-bottom: 0;
     padding-inline: 24px;
     background-color: white;
@@ -246,12 +246,13 @@ header {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    padding: 8px 32px 12px 32px;
+    padding: 8px 20px 12px 20px;
     margin-bottom: 32px;
     color: #464951;
     background-color: #1fe374;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 .third-plus {
     font-size: 12px;
