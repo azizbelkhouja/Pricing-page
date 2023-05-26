@@ -143,7 +143,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .scnd-title {
     font-size: 48px;
@@ -173,7 +172,6 @@ header {
     background-color: #1fe374;
     text-decoration: none;
     font-weight: bold;
-    
 }
 .scnd-plus {
     font-size: 12px;
@@ -205,7 +203,6 @@ header {
             color: #464951;
             letter-spacing: 0.5px;
             padding-block: 8px;
-
         }
     }
 }
